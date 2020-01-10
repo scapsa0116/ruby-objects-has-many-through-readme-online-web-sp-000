@@ -11,5 +11,6 @@ def self.all
   @@all 
 end 
 
-def new_meal()
+def new_meal(customer, total, tip)
+  meal.new 
 end
