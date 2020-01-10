@@ -12,7 +12,7 @@ def self.all
 end 
 
 def new_meal(customer,waiter, total, tip=0)
-    Waiter.new(waiter, self, total, tip)
+    Customer.new(waiter, self, total, tip)
   end
   
   def meals
