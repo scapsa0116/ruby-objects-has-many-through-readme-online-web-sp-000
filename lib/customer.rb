@@ -13,7 +13,7 @@ class Customer
      @@all 
    end 
    
-   def new_meal(meal)
-    @meal.all 
+   def new_meal
+    Meal.all 
    end 
 end
